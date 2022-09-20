@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html>
+    <!-- ***TODO: 
+        - fix the positioning of sign up 
+        - fix the position + style of log-in form -->
 <body>
     <link rel="stylesheet" type="text/css" href="loginstyles.css" >
-    <h1>LOG-IN</h1>
-    <div class="colorrectangle"></div>
+    
+    <div class="navigationbar">
+        <h1>&nbsp;LOG-IN</h1>
+       <!-- <h5>&nbsp;SIGN-UP</h5>-->
 
- 
+    </div>
+    
+    <!-- username & password container -->
+    <form class="container">
+        <p>
+            <label for="username">Username</label><br>
+            <input type="text" id="username" name="username" ><br>            
+        </p>
+        <p>
+            <label for="password">Password</label><br>
+            <input type="text" id="password" name="password" ><br>           
+        </p>
+    </form>
+
+    <!-- button for logging in -->
+    <button class="button-4" role="button">Login</button>
+
+    
+   
 </body>
 </html>
