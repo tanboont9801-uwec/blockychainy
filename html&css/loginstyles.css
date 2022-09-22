@@ -2,12 +2,9 @@
 /* navigationbar */
 .navigationbar{ 
 position: relative;
-z-index: 9;
-background: green;
-width:100%;
-height:100px;
-top: 0px;
-margin:0;
+overflow: hidden;
+background: linear-gradient(-45deg, #E73C7E, #23A6D5,#23D5AB);
+
 }
 /* LOG-IN text */
 h1{
@@ -20,6 +17,12 @@ h1{
     margin: 0;
 
     
+}
+/* sign-up button */
+.rightnav{
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+
 }
 
 /* multicolor rectangle */
